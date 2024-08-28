@@ -1,0 +1,57 @@
+.Categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: fit-content;
+    height: 200vh;
+}
+.categoriesheading p{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.h2 {
+    font-size: 40px;
+    color: var(--primary-color);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.categoryItem {
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;    
+    width: 90%;
+    height: 90%;
+    transition: 0.5s ease-in;
+}
+
+.categoryItem :hover .categoryItem img {
+    width: 100%;
+    height: 100%;
+}
+
+.categoryItem h2 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 100px;
+    font-size: 35px;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.categoryItem img {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    &:hover{
+        width: 95%;
+        height: 95%;
+    }
+}

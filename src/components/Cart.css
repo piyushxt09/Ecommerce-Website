@@ -1,0 +1,87 @@
+.Cart{
+    margin-top: 100px;
+    /* border: 2px solid var(--primary-color); */
+    width: 100vw;
+}
+.Cart-Border{
+    margin: 0 auto;
+    font-weight: 600;
+    padding: -10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    color: white;
+
+}
+.Cart-Border p{
+    font-size: 20px;
+}
+
+.CartItems{
+    margin-top: 40px;
+    width: 100vw;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.CartItems .div{
+    display: flex;
+    gap: 30px;
+    width: 80vw;
+    justify-content: space-between;
+}
+.CartItem{
+    display: flex;
+    gap: 20px;
+    width: 600px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.CartItem h2{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.CartItem p{
+    margin-top: -10px;
+}
+.CartItem .Remove{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+.CartItem img{
+    width: 150px;
+    height: 100%;
+}
+.CartItems input{
+    border: 2px solid var(--primary-color);
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.quantity{
+    margin-left: -350px;
+}
+.price{
+    margin-right: -60px;
+    font-size: 20px;
+}
+.allTotal{
+    width: 83vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 50px;
+    justify-content: left;
+}
+
+hr{
+    color: var(--primary-color);
+    position: relative;
+    border: 1px solid var(--primary-color);
+    bottom: 0px;
+    width: 100vw;
+}
